@@ -1,0 +1,17 @@
+{
+  "name": "arduino-javascript-potenciometer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug",
+    "start": "node analog_read.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firmata": "^0.19.1",
+    "firmata-party": "^1.5.9"
+  }
+}
